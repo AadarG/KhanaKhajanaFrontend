@@ -40,20 +40,21 @@ body {
     outline: none;
     background: linear-gradient(135deg, #ff6f61, #fe8a71);
 }
+
 .search {
     display: inline-block;
     position: relative;
-  }
-  
-  .search input[type="text"] {
+}
+
+.search input[type="text"] {
     width: 200px;
     padding: 10px;
     border: none;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .search button[type="submit"] {
+}
+
+.search button[type="submit"] {
     background-color: #4e99e9;
     border: none;
     color: #fff;
@@ -62,15 +63,18 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: absolute;
-    transition: .9s ease;
-  }
-  
-  .search button[type="submit"]:hover {
+    right: 0;
+    top: 0;
+    transition: 0.9s ease;
+}
+
+.search button[type="submit"]:hover {
     transform: scale(1.1);
-    color: rgb(255, 255, 255);
+    color: #fff;
     background-color: blue;
-  }
-  .po {
+}
+
+.po {
     background: linear-gradient(135deg, #ff7e5f, #feb47b);
     color: #ffffff;
     padding: 20px;
@@ -115,3 +119,7 @@ body {
 ul {
     padding: 0;
 }
+
+/*Landing page*/
+
+
