@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom";
 import { Grid, Button, Image, Header, Segment } from 'semantic-ui-react';
-import { getRecipe } from "../../services/Api";
+import { getRecipe } from "../services/api";
 import { Link } from "react-router-dom";
 
 const RecipeDetails = () => {
@@ -21,6 +21,8 @@ const RecipeDetails = () => {
 
     return (
         Object.keys(recipe).length > 0 ? 
+        
+
         <Grid container stackable columns={2} className="detailsPageContent">
             <Grid.Column>
                 <Button 

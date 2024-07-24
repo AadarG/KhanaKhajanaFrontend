@@ -10,7 +10,8 @@ import Landing from './Landing';
 import NavBar from './component/common/NavBar';
 //import Home from './pages/HomePage';
 import Recipes from './pages/Recipes';
-import RecipeDetails from './component/RecipeDetails';// Import the Signup component
+import RecipeDetails from './component/RecipeDetails';
+//import services from './component/services/api'; 
 
 
 const App = () => {
