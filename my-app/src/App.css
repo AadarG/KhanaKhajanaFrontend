@@ -1,17 +1,25 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1c1c1c;
+    /* background-color: #1c1c1c; */
     color: #e0e0e0;
     margin: 0;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-image: url('back.jpg');
+    /* background-image: url('back.jpg'); */
+    /* background-image: url("./back.jpg"); */
+    background-color: red;
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
-
+.home-container{
+    min-height: 100vh;
+    background-image: url('back.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
 .nav-container {
     display: flex;
     gap: 10px;

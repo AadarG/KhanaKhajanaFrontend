@@ -9,7 +9,9 @@ import Signup from './Signup';
 import Landing from './Landing'; 
 import NavBar from './component/common/NavBar';
 //import Home from './pages/HomePage';
-import Recipes from './pages/Recipes';// Import the Signup component
+import Recipes from './pages/Recipes';
+import RecipeDetails from './component/RecipeDetails';// Import the Signup component
+
 
 const App = () => {
   // const [message, setMessage] = useState('');
@@ -24,14 +26,14 @@ const App = () => {
   // }, []);
   return (
     <Router>
-      <NavBar />
+   
     <Routes>
       <Route path="/" element={<Home/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<Signup/>} />
         <Route path="/landing" element={<Landing/>} />
         <Route path="/recipes" element={<Recipes />} />
-        {/*<Route path="/recipes/Reci" element={<RecipeDetails />} />*/}
+        <Route path="/recipes/:recipeId" element={<RecipeDetails />} />
        </Routes>
       </Router>
   );

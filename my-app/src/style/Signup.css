@@ -125,11 +125,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: start;
     margin-left: 40px;
     color: #fff;
 }
 
-.content .first{
+.content .first1{
     
     font-size: 25px;
     font-weight: 600;
@@ -137,11 +138,14 @@
     margin-bottom: 13px;
 }
 
-.second{
+.second1{
      font-size: 16px;
      margin-bottom: 25px;
 }
-
+.reason{
+    display: flex;
+    flex-direction: column;
+}
 .content .reason .fa-star{
     font-size: 12px;
     padding: 10px 0;

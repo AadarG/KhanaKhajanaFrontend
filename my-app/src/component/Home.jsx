@@ -24,7 +24,7 @@ const Home = () => {
 return (
  
   
-    <div>
+    <div className='home-container'>
       <img src={logo1} alt="/logo-no-background.png" style={{ width: '500px', height: '80px' }} />
       <div className="nav-container">
         <button className="nav-button">Home</button>

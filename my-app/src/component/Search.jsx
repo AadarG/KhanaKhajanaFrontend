@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Grid, Form, Input } from 'semantic-ui-react';
+import NavBar from './common/NavBar';
 
 const Search = ({ setSearchedQuery }) => {
     const [value, setValue] = useState("");
@@ -9,6 +10,8 @@ const Search = ({ setSearchedQuery }) => {
     }
 
     return (
+        <>
+        <NavBar />
         <Grid column={2} textAlign="center" className='search-box'>
             <Grid.Column>
                 <h2 className='search-heading'>
@@ -25,6 +28,7 @@ const Search = ({ setSearchedQuery }) => {
                 </Form>
             </Grid.Column>
         </Grid>
+        </>
     )
 }
 

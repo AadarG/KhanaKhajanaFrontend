@@ -1,6 +1,6 @@
 import React from 'react';
 import './style/Signup.css';
-import './App.css';
+// import './App.css';
 import {Link} from 'react-router-dom';
 import food1 from './food1.png';
 import food2 from './food2.png';
@@ -13,7 +13,7 @@ const Signup = () => {
         <div className="wrapper">
    <div className="container">
         <div className="top">
-            <img src={logo} alt="logo" style={{ width: '450px', height: '60px' }} />
+            <img src={logo} alt="logo" style={{ maxWidth: '250px', height: '60px' }} />
             </div>
 
 
@@ -21,15 +21,15 @@ const Signup = () => {
             <div className="box1 sign-up">
                  <form action="">
                      <div className="row">
-                        <i className="fas fa-user"></i>
+                        <i className="fas fa-user icon"></i>
                          <input type="text" placeholder="first name" />
                      </div>
                      <div className="row">
-                        <i className="fas fa-message"></i>
+                        <i className="fas fa-message icon"></i>
                          <input type="email" placeholder="email" />
                      </div>
                      <div className="row">
-                        <i className="fas fa-lock"></i>
+                        <i className="fas fa-lock icon"></i>
                          <input type="password" name="" id="" placeholder="password" />
                      </div>
                      <button className="btn">Create Account</button>
@@ -38,8 +38,8 @@ const Signup = () => {
             </div>
             
             <div className="box1 content">
-                 <div className="first">Create Account</div>
-                 <div className="second">What you will get?</div>
+                 <div className="first1">Create Account</div>
+                 <div className="second1">What you will get?</div>
                  <div className="reason">
                     <i className="fa-solid fa-star"><span>Manage your recipes the easy way.</span></i>
 

@@ -20,12 +20,12 @@ const Login = () => {
           </div>
           <form action="">
             <div className="row">
-              <FontAwesomeIcon icon={faUser} />
-              <input type="text" placeholder="enter your email" />
+              <FontAwesomeIcon icon={faUser} className='login-icon'/>
+              <input type="text" placeholder="Enter your email" ></input>
             </div>
             <div className="row">
-              <FontAwesomeIcon icon={faLock} />
-              <input type="password" placeholder="password" />
+              <FontAwesomeIcon icon={faLock} className='login-icon' />
+              <input type="password" placeholder="Password" />
             </div>
             <div className="check">
               <a href="#">Forgot Password?</a> 
