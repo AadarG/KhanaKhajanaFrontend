@@ -1,0 +1,26 @@
+
+
+.recipe-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .recipe-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .recipe-item h3 {
+    margin-top: 0;
+  }
+  
+  .recipe-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  

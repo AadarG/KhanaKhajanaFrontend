@@ -8,10 +8,13 @@ import Login from './component/Login';// Import the Login component
 import Signup from './Signup';
 import Landing from './Landing'; 
 import NavBar from './component/common/NavBar';
+import { RecipeProvider } from './component/RecipeContext';
 //import Home from './pages/HomePage';
 import Recipes from './pages/Recipes';
 import RecipeDetails from './component/RecipeDetails';
 //import services from './component/services/api'; 
+import AddRecipe from './component/AddRecipe';
+import RecipeData from './pages/RecipeData';
 
 
 const App = () => {
@@ -26,6 +29,7 @@ const App = () => {
   //     });
   // }, []);
   return (
+    <RecipeProvider>
     <Router>
    
     <Routes>
@@ -35,8 +39,11 @@ const App = () => {
         <Route path="/landing" element={<Landing/>} />
         <Route path="/recipes" element={<Recipes />} />
         <Route path="/recipes/:recipeId" element={<RecipeDetails />} />
+        <Route path="/add-recipe" element={<AddRecipe />} />
+        <Route path="/recipe-data" element={<RecipeData />} />
        </Routes>
       </Router>
+      </RecipeProvider>
   );
 };
 export default App;

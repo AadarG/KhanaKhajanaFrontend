@@ -36,12 +36,12 @@ const Login = () => {
             <div className="extra-info">
               Don't have an account? <Link to="/signup" style={{ textDecoration: 'none', color: 'inherit' }}>Signup</Link>
             </div>
-            <div className="extra">or continue with</div>
-            <div className="social-link">
+          {/*  <div className="extra">or continue with</div>
+           {/* <div className="social-link">
               <a href=""><FontAwesomeIcon icon={faFacebook} /></a>
               <a href=""><FontAwesomeIcon icon={faLinkedin} /></a>
               <a href=""><FontAwesomeIcon icon={faInstagram} /></a> 
-            </div>
+            </div>*/}
           </form>
         </div>
 
@@ -60,4 +60,3 @@ const Login = () => {
 };
 
 export default Login;
-

@@ -13,6 +13,8 @@ const NavBar = () => {
             </Menu.Item>
            <Menu.Item name="Home" as={Link} to="/landing" /> 
           <Menu.Item name="Recipes" as={Link} to="/recipes" /> 
+          <Menu.Item name="Add Recipe" as={Link} to="/add-recipe" />
+          <Menu.Item name="Recipe Data" as={Link} to="/recipe-data" />
         </Menu>
     )
 }

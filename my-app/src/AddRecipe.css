@@ -1,0 +1,103 @@
+/* AddRecipe.css */
+
+/* General styling for the form container */
+.add-recipe-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form heading */
+  .add-recipe-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  /* Styling for form labels */
+  .add-recipe-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Styling for form inputs */
+  .add-recipe-container input[type="text"],
+  .add-recipe-container input[type="number"],
+  .add-recipe-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  
+  /* Styling for form textarea */
+  .add-recipe-container textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  /* Styling for form button */
+  .add-recipe-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-recipe-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add some spacing between form elements */
+  .add-recipe-container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Add responsive design */
+  @media (max-width: 600px) {
+    .add-recipe-container {
+      padding: 15px;
+    }
+  
+    .add-recipe-container h2 {
+      font-size: 1.2em;
+    }
+  
+    .add-recipe-container button {
+      padding: 10px;
+    }
+  }
+  .add-recipe-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  
+  /* Preview image styling */
+  .image-preview {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
